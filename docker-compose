@@ -1,0 +1,10 @@
+version: '3'
+services:
+  web1:
+    image: sobin-app
+    ports:
+      - "8089:80"
+  web2:
+    image: sobin
+    ports:
+      - "8088:80"
